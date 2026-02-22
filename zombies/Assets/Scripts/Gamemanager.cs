@@ -100,7 +100,7 @@ public class Gamemanager : MonoBehaviour
             if (zombie != null && zombie.transform.position.y < -5f)
             {
                 GameOver();
-                break;
+               
             }
         }
     }
